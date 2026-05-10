@@ -4,8 +4,8 @@ app = FastAPI()
 
 @app.get("/")
 def home():
-    return {"message": "Hello Cloud Run"}
+    return {"message": "hello"}
 
-@app.get(“/test")
+@app.get("/test")
 def test():
-    return {"n": 3+3}
+    return {"n": 6}
